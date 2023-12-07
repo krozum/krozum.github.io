@@ -83,4 +83,64 @@
       <g:max_handling_time>2</g:max_handling_time>
     </g:shipping>
   </entry>
+  <entry>
+    <g:id>57</g:id>
+    <title>(Product 57) Sample - Clothing And Accessory Boutiques For Sale.</title>
+    <description>Sample - Clothing And Accessory Boutiques For Sale.</description>
+    <g:product_type>Accessories</g:product_type>
+    <link>https://krozum.github.io/product57.html</link>
+    <g:image_link>https://krozum.github.io/img/product57.png</g:image_link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100 PLN</g:price>
+    <g:brand>Sample</g:brand>
+    <g:gtin></g:gtin>
+    <g:mpn>Accessories</g:mpn>
+    <g:shipping_weight>1 kg</g:shipping_weight>
+    <g:shipping>
+      <g:price>100 PLN</g:price>
+      <g:country>PL</g:country>
+      <g:max_handling_time>2</g:max_handling_time>
+    </g:shipping>
+  </entry>
+  <entry>
+    <g:id>68</g:id>
+    <title>(Product 68) Sample - Clothing And Accessory Boutiques For Sale.</title>
+    <description>Sample - Clothing And Accessory Boutiques For Sale.</description>
+    <g:product_type>Accessories</g:product_type>
+    <link>https://krozum.github.io/product68.html</link>
+    <g:image_link>https://krozum.github.io/img/product68.png</g:image_link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100 PLN</g:price>
+    <g:brand>Sample</g:brand>
+    <g:gtin></g:gtin>
+    <g:mpn>Accessories</g:mpn>
+    <g:shipping_weight>1 kg</g:shipping_weight>
+    <g:shipping>
+      <g:price>100 PLN</g:price>
+      <g:country>PL</g:country>
+      <g:max_handling_time>2</g:max_handling_time>
+    </g:shipping>
+  </entry>
+  <entry>
+    <g:id>71</g:id>
+    <title>(Product 71 Sample - Clothing And Accessory Boutiques For Sale.</title>
+    <description>Sample - Clothing And Accessory Boutiques For Sale.</description>
+    <g:product_type>Accessories</g:product_type>
+    <link>https://krozum.github.io/product71.html</link>
+    <g:image_link>https://krozum.github.io/img/product71.png</g:image_link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100 PLN</g:price>
+    <g:brand>Sample</g:brand>
+    <g:gtin></g:gtin>
+    <g:mpn>Accessories</g:mpn>
+    <g:shipping_weight>1 kg</g:shipping_weight>
+    <g:shipping>
+      <g:price>100 PLN</g:price>
+      <g:country>PL</g:country>
+      <g:max_handling_time>2</g:max_handling_time>
+    </g:shipping>
+  </entry>
 </feed>
