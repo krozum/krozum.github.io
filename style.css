@@ -13,6 +13,16 @@ body {
   background: black;
 }
 
+#marketingMachinePlaceholder {
+  min-height: 150px;
+  border: 2px dashed #b6bacb;
+  display: flex;
+  color: #b6bacb;
+  justify-content: center;
+  align-items: center;
+}
+
+
 header {
   min-height: 100px;
 }
