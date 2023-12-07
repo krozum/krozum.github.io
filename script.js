@@ -2,12 +2,15 @@ function delete_cookie(name) {
   document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
 
-document.getElementById('clearCookies').addEventListener('click', function() {
-  delete_cookie('fp_sid');
-  delete_cookie('ccid');
-  delete_cookie('fp_ccid');
-  console.log('Cookies cleared');
-});
+if (document.getElementById('clearCookies')) {
+  document.getElementById('clearCookies').addEventListener('click',
+      function () {
+        delete_cookie('fp_sid');
+        delete_cookie('ccid');
+        delete_cookie('fp_ccid');
+        console.log('Cookies cleared');
+      });
+}
 
 
 
@@ -120,57 +123,60 @@ orderButtons.forEach(function(button) {
   });
 });
 
+if (document.getElementById('tag-submit')) {
+  document.getElementById('tag-submit').addEventListener('click', function () {
+    // Get input values
+    var email = document.getElementById('tag-email').value;
+    var tag = document.getElementById('tag-tag').value;
 
-document.getElementById('tag-submit').addEventListener('click', function() {
-  // Get input values
-  var email = document.getElementById('tag-email').value;
-  var tag = document.getElementById('tag-tag').value;
+    if (email === null || email === '') {
+      alert('Please enter an email address.');
+      return;
+    }
 
-  if (email === null || email === '') {
-    alert('Please enter an email address.');
-    return;
-  }
+    if (tag === null || tag === '') {
+      alert('Please enter a tag.');
+      return;
+    }
 
-  if (tag === null || tag === '') {
-    alert('Please enter a tag.');
-    return;
-  }
+    _edrone.email = email;
+    _edrone.action_type = "other";
+    _edrone.customer_tags = tag;
+    _edrone.init();
+    console.log('Tag added: ', tag, email);
+  });
+}
+if (document.getElementById('subscribe-submit')) {
+  document.getElementById('subscribe-submit').addEventListener('click',
+      function () {
+        // Get input values
+        var email = document.getElementById('subscribe-email').value;
+        var firstName = document.getElementById('subscribe-firstName').value;
+        var lastName = document.getElementById('subscribe-lastName').value;
 
-  _edrone.email = email;
-  _edrone.action_type = "other";
-  _edrone.customer_tags = tag;
-  _edrone.init();
-  console.log('Tag added: ', tag, email);
-});
+        if (email === null || email === '') {
+          alert('Please enter an email address.');
+          return;
+        }
 
-document.getElementById('subscribe-submit').addEventListener('click', function() {
-  // Get input values
-  var email = document.getElementById('subscribe-email').value;
-  var firstName = document.getElementById('subscribe-firstName').value;
-  var lastName = document.getElementById('subscribe-lastName').value;
+        if (firstName === null || firstName === '') {
+          alert('Please enter a first name.');
+          return;
+        }
 
-  if (email === null || email === '') {
-    alert('Please enter an email address.');
-    return;
-  }
+        if (lastName === null || lastName === '') {
+          alert('Please enter a last name.');
+          return;
+        }
 
-  if (firstName === null || firstName === '') {
-    alert('Please enter a first name.');
-    return;
-  }
-
-  if (lastName === null || lastName === '') {
-    alert('Please enter a last name.');
-    return;
-  }
-
-  _edrone.email = email;
-  _edrone.first_name = firstName;
-  _edrone.last_name = lastName;
-  _edrone.customer_tags = "FromFooter";
-  _edrone.subscriber_status = 1;
-  _edrone.sms_subscriber_status = 1;
-  _edrone.action_type = "subscribe";
-  _edrone.init();
-  console.log('Subscribed: ', email, firstName, lastName, 'FromFooter');
-});
+        _edrone.email = email;
+        _edrone.first_name = firstName;
+        _edrone.last_name = lastName;
+        _edrone.customer_tags = "FromFooter";
+        _edrone.subscriber_status = 1;
+        _edrone.sms_subscriber_status = 1;
+        _edrone.action_type = "subscribe";
+        _edrone.init();
+        console.log('Subscribed: ', email, firstName, lastName, 'FromFooter');
+      });
+}
