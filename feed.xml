@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
+  <title>MaMyKalendarz.pl</title>
+  <link rel="alternate" type="text/html" href="krozum.github.io"/>
+  <updated>2023-12-05T18:00:24+01:00</updated>
+  <entry>
+    <g:id>6</g:id>
+    <title>(Product 6) Sample - Clothing And Accessory Boutiques For Sale.</title>
+    <description>Sample - Clothing And Accessory Boutiques For Sale.</description>
+    <g:product_type>Accessories</g:product_type>
+    <link>https://krozum.github.io/product6.html</link>
+    <g:image_link>https://krozum.github.io/img/product6.png</g:image_link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100 PLN</g:price>
+    <g:brand>Sample</g:brand>
+    <g:gtin></g:gtin>
+    <g:mpn>Accessories</g:mpn>
+    <g:shipping_weight>1 kg</g:shipping_weight>
+    <g:shipping>
+      <g:price>100 PLN</g:price>
+      <g:country>PL</g:country>
+      <g:max_handling_time>2</g:max_handling_time>
+    </g:shipping>
+  </entry>
+  <entry>
+    <g:id>15</g:id>
+    <title>(Product 15) Sample - Clothing And Accessory Boutiques For Sale.</title>
+    <description>Sample - Clothing And Accessory Boutiques For Sale.</description>
+    <g:product_type>Accessories</g:product_type>
+    <link>https://krozum.github.io/product15.html</link>
+    <g:image_link>https://krozum.github.io/img/product15.png</g:image_link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100 PLN</g:price>
+    <g:brand>Sample</g:brand>
+    <g:gtin></g:gtin>
+    <g:mpn>Accessories</g:mpn>
+    <g:shipping_weight>1 kg</g:shipping_weight>
+    <g:shipping>
+      <g:price>100 PLN</g:price>
+      <g:country>PL</g:country>
+      <g:max_handling_time>2</g:max_handling_time>
+    </g:shipping>
+  </entry>
+  <entry>
+    <g:id>21</g:id>
+    <title>(Product 21) Sample - Clothing And Accessory Boutiques For Sale.</title>
+    <description>Sample - Clothing And Accessory Boutiques For Sale.</description>
+    <g:product_type>Accessories</g:product_type>
+    <link>https://krozum.github.io/product6.html</link>
+    <g:image_link>https://krozum.github.io/img/product21.png</g:image_link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100 PLN</g:price>
+    <g:brand>Sample</g:brand>
+    <g:gtin></g:gtin>
+    <g:mpn>Accessories</g:mpn>
+    <g:shipping_weight>1 kg</g:shipping_weight>
+    <g:shipping>
+      <g:price>100 PLN</g:price>
+      <g:country>PL</g:country>
+      <g:max_handling_time>2</g:max_handling_time>
+    </g:shipping>
+  </entry>
+  <entry>
+    <g:id>33</g:id>
+    <title>(Product 33) Sample - Clothing And Accessory Boutiques For Sale.</title>
+    <description>Sample - Clothing And Accessory Boutiques For Sale.</description>
+    <g:product_type>Accessories</g:product_type>
+    <link>https://krozum.github.io/product33.html</link>
+    <g:image_link>https://krozum.github.io/img/product33.png</g:image_link>
+    <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>100 PLN</g:price>
+    <g:brand>Sample</g:brand>
+    <g:gtin></g:gtin>
+    <g:mpn>Accessories</g:mpn>
+    <g:shipping_weight>1 kg</g:shipping_weight>
+    <g:shipping>
+      <g:price>100 PLN</g:price>
+      <g:country>PL</g:country>
+      <g:max_handling_time>2</g:max_handling_time>
+    </g:shipping>
+  </entry>
+</feed>
