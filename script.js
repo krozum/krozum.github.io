@@ -128,6 +128,7 @@ if (document.getElementById('tag-submit')) {
     // Get input values
     var email = document.getElementById('tag-email').value;
     var tag = document.getElementById('tag-tag').value;
+    var phone = document.getElementById('tag-phone').value;
 
     if (email === null || email === '') {
       alert('Please enter an email address.');
@@ -141,6 +142,7 @@ if (document.getElementById('tag-submit')) {
 
     _edrone.email = email;
     _edrone.action_type = "other";
+    _edrone.phone = phone;
     _edrone.customer_tags = tag;
     _edrone.init();
     console.log('Tag added: ', tag, email);
