@@ -86,6 +86,7 @@ orderButtons.forEach(function(button) {
   button.addEventListener('click', function() {
     // Get the data-id attribute value for the clicked button
     var productId = button.getAttribute('data-id');
+    var price = button.getAttribute('data-price');
 
     if (_edrone.email === null || _edrone.email === '' || _edrone.email === undefined) {
       alert('Please set an email address.');
@@ -105,8 +106,8 @@ orderButtons.forEach(function(button) {
     _edrone.action_type = "order";
     _edrone.base_currency = "PLN";
     _edrone.order_currency = "PLN";
-    _edrone.base_payment_value = "100";
-    _edrone.order_payment_value = "100";
+    _edrone.base_payment_value = price;
+    _edrone.order_payment_value = price;
     _edrone.order_id = orderID;
     if (productId !== null) {
       _edrone.product_ids = productId;
