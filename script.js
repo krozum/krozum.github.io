@@ -41,9 +41,7 @@ addToCartButtons.forEach(function(button) {
 
     _edrone.product_titles = "(Product " + productId + ") Sample - Clothing And Accessory Boutiques For Sale";
     _edrone.product_urls = "https://www.krozum.github.io/product" + productId + ".html";
-    _edrone.product_category_ids = "1";
-    _edrone.product_category_names = "Accessories";
-    _edrone.product_skus = "product" + productId + "sku";
+    _edrone.product_skus = productId;
     _edrone.product_images = "https://www.krozum.github.io/img/" + productId + ".png";
     _edrone.action_type = "add_to_cart";
     if (productId !== null) {
@@ -69,9 +67,7 @@ productViewButtons.forEach(function(button) {
 
     _edrone.product_titles = "(Product " + productId + ") Sample - Clothing And Accessory Boutiques For Sale";
     _edrone.product_urls = "https://www.krozum.github.io/product" + productId + ".html";
-    _edrone.product_category_ids = "1";
-    _edrone.product_category_names = "Accessories";
-    _edrone.product_skus = "product" + productId + "sku";
+    _edrone.product_skus = productId;
     _edrone.product_images = "https://www.krozum.github.io/img/" + productId + ".png";
     _edrone.action_type = "product_view";
     if (productId !== null) {
@@ -104,9 +100,7 @@ orderButtons.forEach(function(button) {
 
     _edrone.product_titles = "(Product " + productId + ") Sample - Clothing And Accessory Boutiques For Sale";
     _edrone.product_urls = "https://www.krozum.github.io/product" + productId + ".html";
-    _edrone.product_category_ids = "1";
-    _edrone.product_category_names = "Accessories";
-    _edrone.product_skus = "product" + productId + "sku";
+    _edrone.product_skus = productId;
     _edrone.product_images = "https://www.krozum.github.io/img/" + productId + ".png";
     _edrone.action_type = "order";
     _edrone.base_currency = "PLN";
