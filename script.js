@@ -143,6 +143,38 @@ if (document.getElementById('tag-submit')) {
     console.log('Tag added: ', tag, email);
   });
 }
+if (document.getElementById('eref-submit')) {
+  document.getElementById('eref-submit').addEventListener('click', function () {
+    // Get input values
+    var eref = document.getElementById('tag-eref').value;
+
+    if (eref === null || eref === '') {
+      alert('Please enter an eref.');
+      return;
+    }
+    
+    const inputs = document.querySelectorAll('#refer-a-friend-form input');
+    const dataRef = [];
+    inputs.forEach(input => {
+        dataRef[input.getAttribute('name')] = input.value;
+    });
+
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://api.edrone.me/affiliation", true);
+    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                alert('Success!');
+            } else {
+                console.error('Error response:', xhr.responseText); // Debugging line
+                alert('Error');
+            }
+        }
+    };
+    xhr.send(JSON.stringify(dataRef));
+  });
+}
 if (document.getElementById('subscribe-submit')) {
   document.getElementById('subscribe-submit').addEventListener('click',
       function () {
