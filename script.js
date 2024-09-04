@@ -145,13 +145,6 @@ if (document.getElementById('tag-submit')) {
 }
 if (document.getElementById('eref-submit')) {
   document.getElementById('eref-submit').addEventListener('click', function () {
-    // Get input values
-    var eref = document.getElementById('tag-eref').value;
-
-    if (eref === null || eref === '') {
-      alert('Please enter an eref.');
-      return;
-    }
     
     const inputs = document.querySelectorAll('#refer-a-friend-form input');
     const dataRef = [];
