@@ -128,6 +128,11 @@ img {
   min-height: 500px;
 }
 
+.content-4 {
+    background: linear-gradient(180deg, rgb(197 233 237) 0%, #faffc8 100%);
+    min-height: 500px;
+}
+
 input {
   background: #ffffff;
   color: #232323;
