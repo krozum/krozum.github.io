@@ -147,25 +147,29 @@ if (document.getElementById('eref-submit')) {
   document.getElementById('eref-submit').addEventListener('click', function () {
     
     const inputs = document.querySelectorAll('#refer-a-friend-form input');
-    const dataRef = [];
+    const dataRef = {};
     inputs.forEach(input => {
         dataRef[input.getAttribute('name')] = input.value;
     });
 
-    const xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://api.edrone.me/affiliation", true);
-    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    xhr.onreadystatechange = () => {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-                alert('Success!');
-            } else {
-                console.error('Error response:', xhr.responseText); // Debugging line
-                alert('Error');
-            }
-        }
-    };
-    xhr.send(JSON.stringify(dataRef));
+    fetch("https://api.edrone.me/affiliation", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=UTF-8"
+      },
+      body: JSON.stringify(dataRef)
+    })
+    .then(response => {
+      if (response.ok) {
+        alert('Success!');
+      } else {
+        return response.text().then(text => { throw new Error(text); });
+      }
+    })
+    .catch(error => {
+      console.error('Error response:', error); // Debugging line
+      alert('Error');
+    });
   });
 }
 if (document.getElementById('subscribe-submit')) {
