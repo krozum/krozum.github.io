@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+	<metadata>
+		<ref_application_id>1</ref_application_id>
+		<ref_asset_id>krozum.github.io</ref_asset_id>
+	</metadata>
+    <title>Data feed</title>
+    <link>https://krozum.github.io/</link>
+    <description>EDRONE</description>
+    <item>
+      <g:id><![CDATA[1]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>      
+      <title><![CDATA[Apple iPhone 12 64GB Fioletowy (Purple)]]></title>
+      <link><![CDATA[https://krozum.github.io/product/1]]></link>
+      <g:price>2499.00 PLN</g:price>
+      <g:sale_price>2499.00 PLN</g:sale_price>
+      <description><![CDATA[Apple iPhone 12 64GB Fioletowy (Purple)]]></description>
+      <g:product_type><![CDATA[iPhone 12]]></g:product_type>
+      <g:google_product_category><![CDATA[iPhone 12]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/1.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:shipping_weight>162.000000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[2]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>      
+      <title><![CDATA[Apple iPhone 12 64 GB Biały (White)]]></title>
+      <link><![CDATA[https://krozum.github.io/product/2]]></link>
+      <g:price>2499.00 PLN</g:price>
+      <g:sale_price>2499.00 PLN</g:sale_price>
+      <description><![CDATA[Apple iPhone 12 64 GB Biały (White)]]></description>
+      <g:product_type><![CDATA[iPhone 12]]></g:product_type>
+      <g:google_product_category><![CDATA[iPhone 12]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/2.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:shipping_weight>162.000000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[3]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple iPhone 15 Pro 128GB Tytan czarny (Black Titanium)]]></title>
+      <link><![CDATA[https://krozum.github.io/product/3]]></link>
+      <g:price>5699.00 PLN</g:price>
+      <g:sale_price>5699.00 PLN</g:sale_price>
+      <description><![CDATA[Apple iPhone 15 Pro 128GB Tytan czarny (Black Titanium)]]></description>
+      <g:product_type><![CDATA[iPhone 15 Pro]]></g:product_type>
+      <g:google_product_category><![CDATA[iPhone 15 Pro]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/3.jpg]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:shipping_weight>0.187000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[4]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple iPhone 15 Pro 128GB Tytan biały (White Titanium)]]></title>
+      <link><![CDATA[https://krozum.github.io/product/4]]></link>
+      <g:price>4699.00 PLN</g:price>
+      <g:sale_price>4699.00 PLN</g:sale_price>
+      <description><![CDATA[Apple iPhone 15 Pro 128GB Tytan biały (White Titanium)]]></description>
+      <g:product_type><![CDATA[iPhone 15 Pro]]></g:product_type>
+      <g:google_product_category><![CDATA[iPhone 15 Pro]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/4.jpg]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:shipping_weight>0.187000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[5]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple Watch Ultra GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze żółtym]]></title>
+      <link><![CDATA[https://krozum.github.io/product/5]]></link>
+      <g:price>2399.00 PLN</g:price>
+      <g:sale_price>2399.00 PLN</g:sale_price>
+      <description><![CDATA[Apple Watch Ultra GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze żółtym ]]></description>
+      <g:product_type><![CDATA[Apple Watch Ultra]]></g:product_type>
+      <g:google_product_category><![CDATA[Apple Watch Ultra]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/5.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:shipping_weight>1.000000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[6]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple Watch Ultra 2 GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze niebieskim]]></title>
+      <link><![CDATA[https://krozum.github.io/product/6]]></link>
+      <g:price>4389.00 PLN</g:price>
+      <g:sale_price>4389.00 PLN</g:sale_price>
+      <description><![CDATA[Apple Watch Ultra 2 GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze niebieskim ]]></description>
+      <g:product_type><![CDATA[Apple Watch Ultra]]></g:product_type>
+      <g:google_product_category><![CDATA[Apple Watch Ultra]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/6.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:shipping_weight>1.000000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[7]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple Watch Ultra 2 GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze pomarańczowym]]></title>
+      <link><![CDATA[https://krozum.github.io/product/7]]></link>
+      <g:price>4389.00 PLN</g:price>
+      <g:sale_price>4389.00 PLN</g:sale_price>
+      <description><![CDATA[Apple Watch Ultra 2 GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze pomarańczowym ]]></description>
+      <g:product_type><![CDATA[Apple Watch Ultra]]></g:product_type>
+      <g:google_product_category><![CDATA[Apple Watch Ultra]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/7.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:shipping_weight>1.000000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[8]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple Watch Ultra GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze białym]]></title>
+      <link><![CDATA[https://krozum.github.io/product/8]]></link>
+      <g:price>2399.00 PLN</g:price>
+      <g:sale_price>2399.00 PLN</g:sale_price>
+      <description><![CDATA[Apple Watch Ultra GPS + Cellular Koperta 49mm z tytanu z Paskiem Ocean w kolorze białym ]]></description>
+      <g:product_type><![CDATA[Apple Watch Ultra]]></g:product_type>
+      <g:google_product_category><![CDATA[Apple Watch Ultra]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/8.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>out of stock</g:availability>
+      <g:shipping_weight>1.000000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[9]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple MacBook Pro 14" M2 Pro 12-core CPU + 19-core GPU / 16GB RAM / 1TB SSD / Gwiezdna szarość (Space Gray)]]></title>
+      <link><![CDATA[https://krozum.github.io/product/9]]></link>
+      <g:price>8999.00 PLN</g:price>
+      <g:sale_price>8999.00 PLN</g:sale_price>
+      <description><![CDATA[Apple MacBook Pro 14" M2 Pro 12-core CPU + 19-core GPU / 16GB RAM / 1TB SSD / Gwiezdna szarość (Space Gray) ]]></description>
+      <g:product_type><![CDATA[MacBook Pro 14]]></g:product_type>
+      <g:google_product_category><![CDATA[MacBook Pro 14]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/9.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>out_of_stock</g:availability>
+      <g:shipping_weight>1.600000 kg</g:shipping_weight>
+    </item>
+    <item>
+      <g:id><![CDATA[10]]></g:id>
+      <g:brand><![CDATA[Apple]]></g:brand>
+      <title><![CDATA[Apple MacBook Pro 14" M3 Pro 11-core CPU + 14-core GPU / 36GB RAM / 512GB SSD / Gwiezdna czerń (Space Black)]]></title>
+      <link><![CDATA[https://krozum.github.io/product/10]]></link>
+      <g:price>12999.00 PLN</g:price>
+      <g:sale_price>12999.00 PLN</g:sale_price>
+      <description><![CDATA[Apple MacBook Pro 14" M3 Pro 11-core CPU + 14-core GPU / 36GB RAM / 512GB SSD / Gwiezdna czerń (Space Black) ]]></description>
+      <g:product_type><![CDATA[MacBook Pro 14]]></g:product_type>
+      <g:google_product_category><![CDATA[MacBook Pro 14]]></g:google_product_category>
+      <g:image_link><![CDATA[https://krozum.github.io/images/10.webp]]></g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>out_of_stock</g:availability>
+      <g:shipping_weight>1.550000 kg</g:shipping_weight>
+    </item>
+  </channel>
+</rss>
